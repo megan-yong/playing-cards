@@ -26,9 +26,9 @@ The Deck class also extends it's functionality with three additional methods.
 <br>
 <br>
   - The cards can be shuffled to randomise the order of the cards in the deck using shuffle().
-<br>
+<br> <br>
   - Cards can be checked against the Card class whether a particular card is present in the deck or not. It returns True if the card is in the deck, otherwise False. 
-<br>
+<br> <br>
   - Cards are dealt from the deck to a specified number of players and a specified number of cards per player. It checks if there are enough cards in the deck for the specified deal; if not, it prints an error message and returns None. It then creates a list of hands, where each hand corresponds to a player, and each player receives a specified number of cards, returning the hands as a list of lists.
 <br>
 <br>
